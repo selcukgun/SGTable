@@ -1,4 +1,4 @@
-SGTable provides a editable table with very easy initialization and configuration.
+SGTable provides an editable table with very easy initialization and configuration.
 
 File List:
 SGTable.js           s-> SGTable implementation
