@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SGTable Example</title>
+    <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+    <script src="./jquery.jeditable.js"></script>
+    <script src="./SGTable.js"></script>
+    <link rel="stylesheet" type="text/css" href="./SGTable.css">
+
+</head>
+<body>
+<div id="tableHolder" style="width: 600px; height: 300px"></div>
+<script>
+    var myTable = $("#tableHolder").SGTable();
+    tableData  = {
+        "content": [
+            [
+                "1",
+                "Firefox 1.0",
+                "Win 98+ / OSX.2+",
+                "1.7",
+                "A"
+            ],
+            [
+                "2",
+                "Firefox 1.5",
+                "Win 98+ / OSX.2+",
+                "1.8",
+                "A"
+            ],
+            [
+                "3",
+                "Firefox 2.0",
+                "Win 98+ / OSX.2+",
+                "1.8",
+                "A"
+            ],
+            [
+                "4",
+                "Firefox 3.0",
+                "Win 2k+ / OSX.3+",
+                "1.9",
+                "A"
+            ],
+            [
+                "5",
+                "Camino 1.0",
+                "OSX.2+",
+                "1.8",
+                "A"
+            ],
+            [
+                "6",
+                "Camino 1.5",
+                "OSX.3+",
+                "1.8",
+                "A"
+            ],
+            [
+                "7",
+                "Netscape 7.2",
+                "Win 95+ / Mac OS 8.6-9.2",
+                "1.7",
+                "A"
+            ],
+            [
+                "8",
+                "Firefox 1.0",
+                "Win 98+ / OSX.2+",
+                "1.7",
+                "A"
+            ],
+            [
+                "9",
+                "Firefox 1.5",
+                "Win 98+ / OSX.2+",
+                "1.8",
+                "A"
+            ],
+            [
+                "10",
+                "Firefox 2.0",
+                "Win 98+ / OSX.2+",
+                "1.8",
+                "A"
+            ],
+            [
+                "Gecko",
+                "Firefox 3.0",
+                "Win 2k+ / OSX.3+",
+                "1.9",
+                "A"
+            ],
+            [
+                "Gecko",
+                "Camino 1.0",
+                "OSX.2+",
+                "1.8",
+                "A"
+            ],
+            [
+                "Gecko",
+                "Camino 1.5",
+                "OSX.3+",
+                "1.8",
+                "A"
+            ],
+            [
+                "Gecko",
+                "Netscape 7.2",
+                "Win 95+ / Mac OS 8.6-9.2",
+                "1.7",
+                "A"
+            ],
+            [
+                "Gecko",
+                "Netscape Browser 8",
+                "Win 98SE+",
+                "1.7",
+                "A"
+            ],
+            [
+                "Gecko",
+                "Netscape Navigator 9",
+                "Win 98+ / OSX.2+",
+                "1.8",
+                "A"
+            ],
+            [
+                "Gecko",
+                "Mozilla 1.0",
+                "Win 95+ / OSX.1+",
+                "1",
+                "A"
+            ]
+        ]};
+    myTable.newData(tableData);
+</script>
+</body>
+</html>
